@@ -1,0 +1,36 @@
+# Node.js dependencies
+/node_modules
+
+# Build files
+/build
+/dist
+
+# Environment variables
+.env
+
+# Logs
+/logs
+
+# Cache
+/.cache
+
+# Dependency lock files
+/yarn.lock
+/package-lock.json
+
+# Editor files
+.vscode
+.idea
+
+# Strapi specific files
+/api/*/node_modules
+/api/*/build
+/api/*/dist
+/api/*/logs
+/api/*/yarn.lock
+/api/*/package-lock.json
+/api/*/.env
+
+# React specific files
+/public/build
+/public/.env
